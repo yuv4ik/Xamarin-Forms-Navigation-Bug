@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="navbugtest.MyPage2">
+	<ContentPage.Content>
+        <StackLayout>
+            <Label Text="Page 2" />
+            <Button Text="Back" Clicked="Handle_Clicked_Back" />
+            <Button Text="Forward" Clicked="Handle_Clicked_Forward" />
+       </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
